@@ -1,7 +1,6 @@
-export default function C3({ handleNext, handleBefore }) {
+export default function C3({ handleBefore }) {
     return (
-        <div className="card" style={{ backgroundColor: "#e0d8d0" }}>
-            <button onClick={handleNext} className="next-btn">Next</button>
+        <div style={{ backgroundColor: "#e0d8d0", width: "100%", height: "100%" }}>
             <button onClick={handleBefore} className="before-btn">Prev</button>
 
         </div>

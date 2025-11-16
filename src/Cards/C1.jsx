@@ -1,9 +1,11 @@
-export default function C1({ handleNext, handleBefore }) {
+export default function C1({ handleNext }) {
 
     return (
-        <div className="card" style={{ backgroundColor: "#7f878a" }}>
-            <button onClick={handleNext} className="next-btn">Next</button>
-            <button onClick={handleBefore} className="before-btn">Prev</button>
-        </div>
+        <>
+            <div style={{ backgroundColor: "#7f878a", width: "100%", height: "100%" }}>
+                <h1>Jaja</h1>
+                <button onClick={handleNext} className="next-btn">Next</button>
+            </div>
+        </>
     )
 }
