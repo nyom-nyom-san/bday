@@ -1,8 +1,22 @@
+import Candle from "../components/Candle"
+import "../Cards/C3.css"
+
 export default function C3({ handleBefore }) {
     return (
-        <div style={{ backgroundColor: "#e0d8d0", width: "100%", height: "100%" }}>
-            <button onClick={handleBefore} className="before-btn">Prev</button>
+        <>
+            <div className="c3-page">
+                <div className="c3-container">
+                    <div className="ltext">
+                        <h1>Happy birthday!</h1>
+                        <p>Make a wish before blowing the candle</p>
+                        <button onClick={handleBefore} className="before-btn">Prev</button>
+                    </div>
 
-        </div>
+                    <div className="rtext">
+                        <Candle />
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
