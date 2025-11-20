@@ -3,24 +3,50 @@
     width: 100%;
     min-height: 100vh;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .c3-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 70%;
-    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .ltext {
     flex: 1;
+    align-items: flex-start;
+
 }
 
 .rtext {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
+    padding-bottom: 120px;
+}
+
+
+/* =Relight btn= */
+.relight-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.relight-btn:hover {
+    background: #ff5500;
+}
+
+.s {
+    font-size: 13px;
 }

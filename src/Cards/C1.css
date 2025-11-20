@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: #7f878a;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1 {
+    font-size: 50px;
+}
+
+.wrapper p {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    padding: 40px 10px;
+    font-size: 13px;
+}

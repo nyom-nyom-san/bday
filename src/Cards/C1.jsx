@@ -1,9 +1,11 @@
+import "../Cards/C1.css"
 export default function C1({ handleNext }) {
 
     return (
         <>
-            <div style={{ backgroundColor: "#7f878a", width: "100%", height: "100%" }}>
-                <h1>Jaja</h1>
+            <div className="wrapper">
+                <h1>Happy Birthday</h1>
+                <p>From: A CS Student</p>
                 <button onClick={handleNext} className="next-btn">Next</button>
             </div>
         </>

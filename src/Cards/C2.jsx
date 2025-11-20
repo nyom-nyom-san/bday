@@ -1,6 +1,21 @@
+import "../Cards/C2.css"
+
 export default function C2({ handleNext, handleBefore }) {
     return (
-        <div style={{ backgroundColor: "#b3aba1", width: "100%", height: "100%" }}>
+        <div className="w2">
+            <div className="left-t">
+                <h2>Happy birthday <i></i></h2>
+            </div>
+            <div className="right-t">
+                <p>Congratulations from graduating from being a minor.
+                    You're definitely old now. Here are the skills you are gonna unlock:
+                    <br />
+                    <br />
+                    <li>A grandma that gonna have back pain</li>
+                    <li>You gotta pay taxes</li>
+                    <li>More responsibilities Ig</li>
+                </p>
+            </div>
             <button onClick={handleNext} className="next-btn">Next</button>
             <button onClick={handleBefore} className="before-btn">Prev</button>
         </div>
