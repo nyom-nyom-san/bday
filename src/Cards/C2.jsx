@@ -8,13 +8,13 @@ export default function C2({ handleNext, handleBefore }) {
                     <i>You Xuan</i></h2>
             </div>
             <div className="right-t">
-                <p>Congratulations graduating from being a minor.
+                <p>Congratulations on graduating from being a minor.
                     You're definitely old now. Here are the skills you are gonna unlock:
                     <br />
                     <br />
-                    <li>A grandma that gonna have back pain</li>
-                    <li>Gotta pay taxes</li>
-                    <li>More responsibilities Ig</li>
+                    <li>Random Grandma back pain</li>
+                    <li>Paying taxes</li>
+                    <li>More responsibilities you didn't ask for</li>
                 </p>
             </div>
             <button onClick={handleNext} className="next-btn">Next</button>
