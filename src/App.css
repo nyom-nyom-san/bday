@@ -84,9 +84,17 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #6200ea;
-    color: white;
+    background-color: #4A90E2;
+    color: #30E3CA;
+    font-weight: 600;
 }
+
+.next-btn:hover,
+.before-btn:hover {
+    background-color: #FF69B4;
+    color: #30E3CA;
+}
+
 
 .before-btn {
     position: absolute;
@@ -97,6 +105,6 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #6200ea;
+    background-color: #4A90E2;
     color: white;
 }

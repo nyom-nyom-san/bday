@@ -25,6 +25,7 @@
     align-items: flex-start;
     justify-content: center;
     transform: translateX(-50%);
+    backface-visibility: visible;
 }
 
 /* Candle body */

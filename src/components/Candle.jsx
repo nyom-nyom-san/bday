@@ -45,7 +45,7 @@ export default function Candle({ onRelight }) {
                     const volume =
                         dataArray.reduce((a, b) => a + b) / dataArray.length;
 
-                    if (volume > 70 && !blownRef.current) {
+                    if (volume > 90 && !blownRef.current) {
                         setBlown(true);
                     }
 
@@ -71,7 +71,7 @@ export default function Candle({ onRelight }) {
 
     return (
         <>
-            <div className="ccake" onClick={() => setBlown(true)}>
+            <div className="ccake" onClick={() => !blown && setBlown(true)}>
                 <img src={cake} alt="cake" className="icake" />
 
                 <div className="candle-wrapper">

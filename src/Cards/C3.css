@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'hmm';
+    src: url("../assets/Anthony Gilford.otf");
+}
+
+
 .c3-page {
-    background-color: #e0d8d0;
+    background: linear-gradient(135deg, #4A90E2, #FF69B4, #30E3CA);
     width: 100%;
     min-height: 100vh;
     border-radius: 20px;
