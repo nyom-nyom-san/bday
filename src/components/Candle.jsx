@@ -45,7 +45,7 @@ export default function Candle({ onRelight }) {
                     const volume =
                         dataArray.reduce((a, b) => a + b) / dataArray.length;
 
-                    if (volume > 70 && !blownRef.current) {
+                    if (volume > 75 && !blownRef.current) {
                         setBlown(true);
                     }
 
